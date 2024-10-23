@@ -25,6 +25,18 @@ local utility = {}
 -- themes
 local objects = {}
 local themes = {
+	Background = Color3.fromRGB(70, 8, 8), 
+	Glow = Color3.fromRGB(255, 0, 0), 
+	Accent = Color3.fromRGB(10, 10, 10), 
+	LightContrast = Color3.fromRGB(53, 2, 2), 
+	DarkContrast = Color3.fromRGB(65, 0, 0),  
+	TextColor = Color3.fromRGB(255, 255, 255)
+}
+
+
+--Original themes
+--[[
+local themes = {
 	Background = Color3.fromRGB(24, 24, 24), 
 	Glow = Color3.fromRGB(0, 0, 0), 
 	Accent = Color3.fromRGB(10, 10, 10), 
@@ -32,6 +44,9 @@ local themes = {
 	DarkContrast = Color3.fromRGB(14, 14, 14),  
 	TextColor = Color3.fromRGB(255, 255, 255)
 }
+
+]]--
+
 
 do
 	function utility:Create(instance, properties, children)
